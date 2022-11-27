@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "MarketDeco";
+    src: url(./assets/Market_Deco.ttf) format('TrueType');
+}
+
+.basic {
+    font-family: "MarketDeco", sans-serif;
+    font-size: 40px;
+}
