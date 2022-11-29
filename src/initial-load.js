@@ -1,6 +1,6 @@
 import header from "./header.js";
 import footer from "./footer.js";
-import bodyHero from "./landing-page.js";
+import landingPage from "./landing-page.js";
 
 export default function initialLoad() {
     const container = document.createElement("div");
@@ -9,10 +9,9 @@ export default function initialLoad() {
     wrapper.classList = "wrapper";
 
     wrapper.appendChild(header());
-    wrapper.appendChild(bodyHero());
+    wrapper.appendChild(landingPage());
     wrapper.appendChild(footer());
 
     container.appendChild(wrapper);
-
-    return container;
+    document.body.appendChild(container);
 }

@@ -5,13 +5,13 @@ export default function header() {
     <h1>Lorem Pizza</h1>
     <ul>
         <li class="active">
-            <a data-id="landingPage">Accueil</a>
+            <a class="link" data-id="landingPage">Accueil</a>
         </li>
         <li>
-            <a data-id="menu">Menu</a>
+            <a class="link" data-id="menu">Menu</a>
         </li>
         <li>
-            <a data-id="contact">Contact</a>
+            <a class="link" data-id="contact">Contact</a>
         </li>
     </ul>
     </nav>
