@@ -4,10 +4,11 @@ import landingPage from "./landing-page.js";
 import contact from "./contact.js";
 import menu from "./menu.js"
 
-function removeMain() {
+function restDOM() {
     if (document.querySelector("main")) { 
         document.querySelector("main").remove();
     }
+    document.querySelector("li.active").classList = ""
 }
 
 function appendMain(element) {
@@ -27,7 +28,7 @@ function addEventOnLinks() {
 }
 
 function changePage() {
-    removeMain();
+    restDOM();
     if (this.dataset.id === "landingPage") {
         appendMain(landingPage());
         addEventOnLinks();
@@ -36,4 +37,5 @@ function changePage() {
     } else {
         appendMain(menu())
     }
+    document.querySelector(`li [data-id="${this.dataset.id}"]`).parentNode.classList = "active";
 }
