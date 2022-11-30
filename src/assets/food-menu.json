@@ -1,0 +1,68 @@
+{
+    "Base tomate": [
+        {
+            "name": "Marguerita",
+            "price": "6€",
+            "ingredients": "Fromage, olives"
+        },
+        {
+            "name": "Végétarienne",
+            "price": "7.5€",
+            "ingredients": "Fromage, poivrons, aubergines, pomme de terre, champignons"
+        },
+        {
+            "name": "Reine",
+            "price": "8€",
+            "ingredients": "Fromage, jambon, champignons"
+        },
+        {
+            "name": "4 saisons",
+            "price": "8€",
+            "ingredients": "Fromage, jambon, poivrons, olives, oignons, champignons"
+        }
+    ],
+
+    "Base creme fraiche": [
+        {
+            "name": "Paysanne",
+            "price": "8€",
+            "ingredients": "Fromage, poulet, pommes de terre"
+        },
+        {
+            "name": "Fermière",
+            "price": "8.5€",
+            "ingredients": "Fromage, jambon, champignons"
+        },
+        {
+            "name": "Délice",
+            "price": "8.5€",
+            "ingredients": "Fromage, poulet, pomme de terre, oignons, champignons"
+        }
+    ],
+
+    "Desserts": [
+        {
+            "name": "Tarte normande aux pommes",
+            "price": "2€"
+        },
+        {
+            "name": "Tiramisu",
+            "price": "2.5€"
+        },
+        {
+            "name": "Fondant chocolat",
+            "price": "2.5€"
+        }
+    ],
+
+    "Boissons": [
+        {
+            "name": "33cl",
+            "price": "1.2€"
+        },
+        {
+            "name": "Eau pétillante",
+            "price": "1.5€"
+        }
+    ]
+}
